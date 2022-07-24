@@ -101,3 +101,11 @@ header button {
     font-weight: 400;
     text-align: center;
 }
+
+.block2-box{
+    display: flex;
+}
+
+.block2-box span{
+    background-color: #5f5f5f;
+}
