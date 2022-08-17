@@ -129,6 +129,58 @@ header button {
     background-color: #add136;
 }
 
+.block3{
+    background-color: #e2f8ff;;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.block3-bigbox{
+    max-width: 1020px;
+
+}
+
+.block3-txt{
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.chair{
+    margin-right:60px;
+    background-image: url(../images/armchair.png);
+    width: 132px;
+    height: 112px;
+}
+
+.purse{
+    margin-right:77px;
+    background-image: url(../images/purse.png);
+    width: 101px;
+    height: 92px;
+}
+
+.block3-buttonblue{
+    border: none;
+    background-color: #26a6d1;
+    border-radius: 10px;
+    color: white;
+    padding: 25px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.block3-buttongreen{
+    border: none;
+    background-color: #add136;
+    border-radius: 10px;
+    color: white;
+    padding: 25px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
 .block4{
     max-width: 1020px;
     width: 100%;
@@ -154,6 +206,19 @@ header button {
     background-color: #f9f9f9;
     border: 1px solid #e5e5e5;
     border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.new{
+    text-transform: uppercase;
+    position: absolute;
+    background-color: #add136;
+    color: white;
+    top: -11px;
+    left: -39px;
+    transform: rotate(315deg);
+    padding: 20px 40px;
 }
 
 .card-desc{
@@ -167,9 +232,31 @@ header button {
     border-radius: 10px;
 }
 
-.bar-green{
+.bar-green1{
     height: 15px;
     width: 40px;
+    background-color: #add136;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: absolute;
+    top: -8px;
+}
+
+.bar-green2{
+    height: 15px;
+    width: 180px;
+    background-color: #add136;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: absolute;
+    top: -8px;
+}
+
+.bar-green3{
+    height: 15px;
+    width: 45px;
     background-color: #add136;
     border: none;
     border-top-left-radius: 10px;
